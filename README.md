@@ -13,7 +13,6 @@ This Python script provides a command-line utility to manage network bridges on 
 ## Requirements
 
 - Python 3
-- `colorama` library
 - `bridge-utils` package (automatically installed if missing)
 
 ## Installation
@@ -22,13 +21,9 @@ This Python script provides a command-line utility to manage network bridges on 
 
 2. Navigate to the directory where the script is located.
 
-3. Create a `requirements.txt` file with the following content:
+3. Ensure you have `pip` installed.
 
-    ```
-    colorama
-    ```
-
-4. Install the required Python packages using `pip`:
+4. Install the required Python packages using the existing `requirements.txt` file:
 
     ```bash
     pip install -r requirements.txt
